@@ -15,6 +15,7 @@
 		A1A8620E298EB76400288C1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A8620C298EB76400288C1D /* LaunchScreen.storyboard */; };
 		A1A86217298EBB1A00288C1D /* SingleResponsibilityPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A86216298EBB1A00288C1D /* SingleResponsibilityPrinciple.swift */; };
 		A1A86219298EC4DC00288C1D /* OpenClosedPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A86218298EC4DC00288C1D /* OpenClosedPrinciple.swift */; };
+		A1A8621D298ED0D300288C1D /* LiskovSubstitutionPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8621C298ED0D300288C1D /* LiskovSubstitutionPrinciple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A1A8620F298EB76400288C1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1A86216298EBB1A00288C1D /* SingleResponsibilityPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleResponsibilityPrinciple.swift; sourceTree = "<group>"; };
 		A1A86218298EC4DC00288C1D /* OpenClosedPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenClosedPrinciple.swift; sourceTree = "<group>"; };
+		A1A8621C298ED0D300288C1D /* LiskovSubstitutionPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiskovSubstitutionPrinciple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				A1A86216298EBB1A00288C1D /* SingleResponsibilityPrinciple.swift */,
 				A1A86218298EC4DC00288C1D /* OpenClosedPrinciple.swift */,
+				A1A8621C298ED0D300288C1D /* LiskovSubstitutionPrinciple.swift */,
 			);
 			path = SOLID;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1A86219298EC4DC00288C1D /* OpenClosedPrinciple.swift in Sources */,
+				A1A8621D298ED0D300288C1D /* LiskovSubstitutionPrinciple.swift in Sources */,
 				A1A86217298EBB1A00288C1D /* SingleResponsibilityPrinciple.swift in Sources */,
 				A1A86206298EB76300288C1D /* ViewController.swift in Sources */,
 				A1A86202298EB76300288C1D /* AppDelegate.swift in Sources */,

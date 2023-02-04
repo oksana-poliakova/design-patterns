@@ -12,6 +12,9 @@ import Foundation
 // In simple terms, Entities should be open for extension but closed for modification.
 
 /*
+ 
+This is a bad approach =>
+ 
 class PaymentManager() {
     func makeCashPayment(amount: Double) {
         //perform
@@ -61,7 +64,7 @@ class MasterCardPayment: PaymentMethod {
  
  Manager help to define a type of payment
  
- "payment: PaymentProtocol" - it's a DI, DI can be in the init or like an argument in functions
+ "payment: PaymentProtocol" - it's a DI, DI can be in the init or like an argument in functions.
  
  So we kept our PaymentManager class open to extensions but func makePayment() closed to modifications.
 */
