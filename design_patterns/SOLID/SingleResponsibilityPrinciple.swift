@@ -55,3 +55,14 @@ class DataHandler {
         storageHandler.save(model: model)
     }
 }
+
+/* According to the "simple": the data persistence class must store the data, the networking class must work with the network.
+ 
+ And: Each class (object) should have only one reason to change
+
+ Everything is simple here: if the class has only one task, then the reason for the change will also be the same. If there is a network part in the data persistence class, then something is going wrong.
+ 
+ Why follow the principle
+ 
+ To make it clear at a glance what the class is doing. In order for the code to be clean, flexible, easy to maintain, the application worked predictably.
+ */

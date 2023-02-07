@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 // MARK: - Liskov Substitution Principle
 
@@ -64,7 +65,7 @@ import Foundation
  */
 
 
-/* As in the example above, the common task between the Rectangle and Square classes is to calculate the area of the object. Both the rectangle and square classes inherit the Polygon abstract structure after this task is defined in a common protocol. Thus, each class fulfills the necessary tasks within itself and there is no need to make any special developments. Classes behave just like the structure they inherit.
+/* As in the example above, the common task between the Rectangle and Square classes is to calculate the area of the object. Both the rectangle and square classes inherit the Polygon abstract structure after this task is defined in a common protocol. Each class fulfills the necessary tasks within itself and there is no need to make any special developments. Classes behave just like the structure they inherit.
  */
 
 protocol Polygon {
@@ -102,17 +103,19 @@ class Square: Polygon {
     }
 }
 
-func printArea(polygon: Polygon) {
-    print(polygon.calculateArea())
-}
+class TestVC: UIViewController {
+    func printArea(polygon: Polygon) {
+        print(polygon.calculateArea())
+    }
 
-func example() {
-    let rectangle = Rectangle()
-    rectangle.set(witdh: 4)
-    rectangle.set(height: 5)
-    print(printArea(polygon: rectangle))
+    func example() {
+        let rectangle = Rectangle()
+        rectangle.set(witdh: 4)
+        rectangle.set(height: 5)
+        print(printArea(polygon: rectangle))
 
-    let square = Square()
-    square.set(side: 4)
-    printArea(polygon: square)
+        let square = Square()
+        square.set(side: 4)
+        printArea(polygon: square)
+    }
 }
