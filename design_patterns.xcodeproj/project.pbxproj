@@ -19,6 +19,7 @@
 		A1A862202992601500288C1D /* LiskovSubstitutionPrinciple2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8621F2992601500288C1D /* LiskovSubstitutionPrinciple2.swift */; };
 		A1A86222299265B800288C1D /* InterfaceSegregationPrinciple .swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A86221299265B800288C1D /* InterfaceSegregationPrinciple .swift */; };
 		A1A862242992691400288C1D /* DependencyInversionPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862232992691400288C1D /* DependencyInversionPrinciple.swift */; };
+		A1A8622629926CBF00288C1D /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8622529926CBF00288C1D /* Summary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		A1A8621F2992601500288C1D /* LiskovSubstitutionPrinciple2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiskovSubstitutionPrinciple2.swift; sourceTree = "<group>"; };
 		A1A86221299265B800288C1D /* InterfaceSegregationPrinciple .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InterfaceSegregationPrinciple .swift"; sourceTree = "<group>"; };
 		A1A862232992691400288C1D /* DependencyInversionPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInversionPrinciple.swift; sourceTree = "<group>"; };
+		A1A8622529926CBF00288C1D /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		A1A86215298EBAF700288C1D /* SOLID */ = {
 			isa = PBXGroup;
 			children = (
+				A1A8622529926CBF00288C1D /* Summary.swift */,
 				A1A86216298EBB1A00288C1D /* SingleResponsibilityPrinciple.swift */,
 				A1A86218298EC4DC00288C1D /* OpenClosedPrinciple.swift */,
 				A1A86221299265B800288C1D /* InterfaceSegregationPrinciple .swift */,
@@ -178,6 +181,7 @@
 				A1A862202992601500288C1D /* LiskovSubstitutionPrinciple2.swift in Sources */,
 				A1A86206298EB76300288C1D /* ViewController.swift in Sources */,
 				A1A86202298EB76300288C1D /* AppDelegate.swift in Sources */,
+				A1A8622629926CBF00288C1D /* Summary.swift in Sources */,
 				A1A86222299265B800288C1D /* InterfaceSegregationPrinciple .swift in Sources */,
 				A1A86204298EB76300288C1D /* SceneDelegate.swift in Sources */,
 				A1A862242992691400288C1D /* DependencyInversionPrinciple.swift in Sources */,
