@@ -20,6 +20,14 @@
 		A1A86222299265B800288C1D /* InterfaceSegregationPrinciple .swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A86221299265B800288C1D /* InterfaceSegregationPrinciple .swift */; };
 		A1A862242992691400288C1D /* DependencyInversionPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862232992691400288C1D /* DependencyInversionPrinciple.swift */; };
 		A1A8622629926CBF00288C1D /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8622529926CBF00288C1D /* Summary.swift */; };
+		A1A86229299274B300288C1D /* SummaryOOP.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A86228299274B300288C1D /* SummaryOOP.swift */; };
+		A1A8622B2992758100288C1D /* Encapsulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8622A2992758100288C1D /* Encapsulation.swift */; };
+		A1A8622D2992758F00288C1D /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8622C2992758F00288C1D /* Abstraction.swift */; };
+		A1A8622F2992759A00288C1D /* Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8622E2992759A00288C1D /* Inheritance.swift */; };
+		A1A86231299275A900288C1D /* Polymorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A86230299275A900288C1D /* Polymorphism.swift */; };
+		A1A86233299275B700288C1D /* Composition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A86232299275B700288C1D /* Composition.swift */; };
+		A1A86236299286A700288C1D /* SummaryDesignPatterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A86235299286A700288C1D /* SummaryDesignPatterns.swift */; };
+		A1A8623829929D9900288C1D /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8623729929D9900288C1D /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +46,14 @@
 		A1A86221299265B800288C1D /* InterfaceSegregationPrinciple .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InterfaceSegregationPrinciple .swift"; sourceTree = "<group>"; };
 		A1A862232992691400288C1D /* DependencyInversionPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInversionPrinciple.swift; sourceTree = "<group>"; };
 		A1A8622529926CBF00288C1D /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
+		A1A86228299274B300288C1D /* SummaryOOP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryOOP.swift; sourceTree = "<group>"; };
+		A1A8622A2992758100288C1D /* Encapsulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encapsulation.swift; sourceTree = "<group>"; };
+		A1A8622C2992758F00288C1D /* Abstraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstraction.swift; sourceTree = "<group>"; };
+		A1A8622E2992759A00288C1D /* Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
+		A1A86230299275A900288C1D /* Polymorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polymorphism.swift; sourceTree = "<group>"; };
+		A1A86232299275B700288C1D /* Composition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composition.swift; sourceTree = "<group>"; };
+		A1A86235299286A700288C1D /* SummaryDesignPatterns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryDesignPatterns.swift; sourceTree = "<group>"; };
+		A1A8623729929D9900288C1D /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +89,8 @@
 				A1A86201298EB76300288C1D /* AppDelegate.swift */,
 				A1A86203298EB76300288C1D /* SceneDelegate.swift */,
 				A1A86205298EB76300288C1D /* ViewController.swift */,
+				A1A862342992868600288C1D /* Design Patterns */,
+				A1A86227299274A300288C1D /* OOP */,
 				A1A86215298EBAF700288C1D /* SOLID */,
 				A1A86207298EB76300288C1D /* Main.storyboard */,
 				A1A8620A298EB76400288C1D /* Assets.xcassets */,
@@ -102,6 +120,28 @@
 				A1A8621F2992601500288C1D /* LiskovSubstitutionPrinciple2.swift */,
 			);
 			path = Liskov;
+			sourceTree = "<group>";
+		};
+		A1A86227299274A300288C1D /* OOP */ = {
+			isa = PBXGroup;
+			children = (
+				A1A86228299274B300288C1D /* SummaryOOP.swift */,
+				A1A8622A2992758100288C1D /* Encapsulation.swift */,
+				A1A8622C2992758F00288C1D /* Abstraction.swift */,
+				A1A8622E2992759A00288C1D /* Inheritance.swift */,
+				A1A86230299275A900288C1D /* Polymorphism.swift */,
+				A1A86232299275B700288C1D /* Composition.swift */,
+				A1A8623729929D9900288C1D /* Protocols.swift */,
+			);
+			path = OOP;
+			sourceTree = "<group>";
+		};
+		A1A862342992868600288C1D /* Design Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				A1A86235299286A700288C1D /* SummaryDesignPatterns.swift */,
+			);
+			path = "Design Patterns";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,9 +215,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1A86233299275B700288C1D /* Composition.swift in Sources */,
+				A1A8622B2992758100288C1D /* Encapsulation.swift in Sources */,
 				A1A86219298EC4DC00288C1D /* OpenClosedPrinciple.swift in Sources */,
+				A1A8623829929D9900288C1D /* Protocols.swift in Sources */,
+				A1A86231299275A900288C1D /* Polymorphism.swift in Sources */,
+				A1A8622F2992759A00288C1D /* Inheritance.swift in Sources */,
+				A1A8622D2992758F00288C1D /* Abstraction.swift in Sources */,
 				A1A8621D298ED0D300288C1D /* LiskovSubstitutionPrinciple.swift in Sources */,
 				A1A86217298EBB1A00288C1D /* SingleResponsibilityPrinciple.swift in Sources */,
+				A1A86229299274B300288C1D /* SummaryOOP.swift in Sources */,
 				A1A862202992601500288C1D /* LiskovSubstitutionPrinciple2.swift in Sources */,
 				A1A86206298EB76300288C1D /* ViewController.swift in Sources */,
 				A1A86202298EB76300288C1D /* AppDelegate.swift in Sources */,
@@ -185,6 +232,7 @@
 				A1A86222299265B800288C1D /* InterfaceSegregationPrinciple .swift in Sources */,
 				A1A86204298EB76300288C1D /* SceneDelegate.swift in Sources */,
 				A1A862242992691400288C1D /* DependencyInversionPrinciple.swift in Sources */,
+				A1A86236299286A700288C1D /* SummaryDesignPatterns.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
