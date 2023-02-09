@@ -146,3 +146,10 @@ let testColor = UIColor.rgb(r: 63, g: 198, b: 86)
 
  The Open/Closed Principle is a recommendation to isolate modules, because the less coupled the classes are, the easier it is to change the system as a whole.
 */
+
+/* A class can be called public if it is extensible. For example, you can extend its set of operations or add new fields to it by creating your own subclass.
+ 
+ At the same time, a class can be called closed (or rather, finished) if it is ready for use by other classes. This means that the class interface is already finalized and will not change in the future.
+ 
+ If the class has already been written, approved, tested, possibly added to the library and included in the project, then it is undesirable to try to modify its contents. Instead, you can create a subclass and extend the base behavior without changing the parent class code directly.
+ */

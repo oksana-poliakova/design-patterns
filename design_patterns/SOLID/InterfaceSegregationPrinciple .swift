@@ -131,3 +131,43 @@ protocol IosDeveloper {
 class IosDeveloperImpl: IosDeveloper {
     func makeApp() { }
 }
+
+
+/* Clients shouldn't depend on methods they don't use.
+ 
+ Strive to keep interfaces concise enough so that classes don't have to implement redundant behavior. The principle of separation of interfaces says that too “thick” interfaces must be divided into smaller and more specific ones, so that clients of small interfaces know only about the methods that they need in their work.
+ */
+
+// MARK: - Example 3
+
+protocol CloudHostingProvider {
+    func createServer()
+    func listServers()
+}
+
+protocol CDNProvider {
+    func CDNAddress()
+}
+
+protocol CloudStorageProvider {
+    func storeFile()
+    func getFile()
+}
+
+class Amazon: CloudHostingProvider, CDNProvider, CloudStorageProvider {
+    func createServer() { }
+    
+    func listServers() { }
+    
+    func CDNAddress() { }
+    
+    func storeFile() { }
+    
+    func getFile() { }
+}
+
+class DropBox: CloudStorageProvider {
+    func storeFile() { }
+    
+    func getFile() { }
+}

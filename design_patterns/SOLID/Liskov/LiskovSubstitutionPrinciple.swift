@@ -12,6 +12,8 @@ import UIKit
 
 /* Objects should be replaced with instances of their subclasses without changing the behavior.
  Or with other words: derived classes should replace their base classes without any problems.
+ 
+ Subclasses should complement, not replace, the behavior of the base class.
  */
 
 /* This is a bad approach
