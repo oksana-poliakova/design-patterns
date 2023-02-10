@@ -32,6 +32,9 @@
 		A1A8623D29954A7400288C1D /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8623C29954A7400288C1D /* Factory.swift */; };
 		A1A862412995529D00288C1D /* JobContacterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862402995529D00288C1D /* JobContacterFactory.swift */; };
 		A1A8624329955D8200288C1D /* CurrencyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8624229955D8200288C1D /* CurrencyFactory.swift */; };
+		A1A8624729969F7700288C1D /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8624629969F7700288C1D /* AbstractFactory.swift */; };
+		A1A862492996A11800288C1D /* ServiceAbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862482996A11800288C1D /* ServiceAbstractFactory.swift */; };
+		A1A8624D2996A31300288C1D /* ProductAbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8624C2996A31300288C1D /* ProductAbstractFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +65,9 @@
 		A1A8623C29954A7400288C1D /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		A1A862402995529D00288C1D /* JobContacterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobContacterFactory.swift; sourceTree = "<group>"; };
 		A1A8624229955D8200288C1D /* CurrencyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFactory.swift; sourceTree = "<group>"; };
+		A1A8624629969F7700288C1D /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		A1A862482996A11800288C1D /* ServiceAbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAbstractFactory.swift; sourceTree = "<group>"; };
+		A1A8624C2996A31300288C1D /* ProductAbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAbstractFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,11 +163,30 @@
 		A1A8623B29954A5C00288C1D /* GenerativePatterns */ = {
 			isa = PBXGroup;
 			children = (
-				A1A8623C29954A7400288C1D /* Factory.swift */,
-				A1A8624229955D8200288C1D /* CurrencyFactory.swift */,
-				A1A862402995529D00288C1D /* JobContacterFactory.swift */,
+				A1A8624529969F6100288C1D /* Abstract Factory */,
+				A1A8624429969F4E00288C1D /* Factory */,
 			);
 			path = GenerativePatterns;
+			sourceTree = "<group>";
+		};
+		A1A8624429969F4E00288C1D /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				A1A8624229955D8200288C1D /* CurrencyFactory.swift */,
+				A1A8623C29954A7400288C1D /* Factory.swift */,
+				A1A862402995529D00288C1D /* JobContacterFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		A1A8624529969F6100288C1D /* Abstract Factory */ = {
+			isa = PBXGroup;
+			children = (
+				A1A8624629969F7700288C1D /* AbstractFactory.swift */,
+				A1A862482996A11800288C1D /* ServiceAbstractFactory.swift */,
+				A1A8624C2996A31300288C1D /* ProductAbstractFactory.swift */,
+			);
+			path = "Abstract Factory";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,8 +280,11 @@
 				A1A862412995529D00288C1D /* JobContacterFactory.swift in Sources */,
 				A1A86222299265B800288C1D /* InterfaceSegregationPrinciple .swift in Sources */,
 				A1A86204298EB76300288C1D /* SceneDelegate.swift in Sources */,
+				A1A8624D2996A31300288C1D /* ProductAbstractFactory.swift in Sources */,
+				A1A862492996A11800288C1D /* ServiceAbstractFactory.swift in Sources */,
 				A1A862242992691400288C1D /* DependencyInversionPrinciple.swift in Sources */,
 				A1A86236299286A700288C1D /* SummaryDesignPatterns.swift in Sources */,
+				A1A8624729969F7700288C1D /* AbstractFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
