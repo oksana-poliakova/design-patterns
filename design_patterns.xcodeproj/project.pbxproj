@@ -35,6 +35,9 @@
 		A1A8624729969F7700288C1D /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8624629969F7700288C1D /* AbstractFactory.swift */; };
 		A1A862492996A11800288C1D /* ServiceAbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862482996A11800288C1D /* ServiceAbstractFactory.swift */; };
 		A1A8624D2996A31300288C1D /* ProductAbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8624C2996A31300288C1D /* ProductAbstractFactory.swift */; };
+		A1A862502996B3BF00288C1D /* BuilderSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8624F2996B3BF00288C1D /* BuilderSummary.swift */; };
+		A1A862522996B71600288C1D /* HouseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862512996B71600288C1D /* HouseBuilder.swift */; };
+		A1A862542996B84B00288C1D /* ThemeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862532996B84B00288C1D /* ThemeBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +71,9 @@
 		A1A8624629969F7700288C1D /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 		A1A862482996A11800288C1D /* ServiceAbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAbstractFactory.swift; sourceTree = "<group>"; };
 		A1A8624C2996A31300288C1D /* ProductAbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAbstractFactory.swift; sourceTree = "<group>"; };
+		A1A8624F2996B3BF00288C1D /* BuilderSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderSummary.swift; sourceTree = "<group>"; };
+		A1A862512996B71600288C1D /* HouseBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseBuilder.swift; sourceTree = "<group>"; };
+		A1A862532996B84B00288C1D /* ThemeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				A1A8624529969F6100288C1D /* Abstract Factory */,
+				A1A8624E2996B3AC00288C1D /* Builder */,
 				A1A8624429969F4E00288C1D /* Factory */,
 			);
 			path = GenerativePatterns;
@@ -187,6 +194,16 @@
 				A1A8624C2996A31300288C1D /* ProductAbstractFactory.swift */,
 			);
 			path = "Abstract Factory";
+			sourceTree = "<group>";
+		};
+		A1A8624E2996B3AC00288C1D /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				A1A8624F2996B3BF00288C1D /* BuilderSummary.swift */,
+				A1A862512996B71600288C1D /* HouseBuilder.swift */,
+				A1A862532996B84B00288C1D /* ThemeBuilder.swift */,
+			);
+			path = Builder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,14 +282,17 @@
 				A1A86219298EC4DC00288C1D /* OpenClosedPrinciple.swift in Sources */,
 				A1A8623829929D9900288C1D /* Protocols.swift in Sources */,
 				A1A8623D29954A7400288C1D /* Factory.swift in Sources */,
+				A1A862522996B71600288C1D /* HouseBuilder.swift in Sources */,
 				A1A8624329955D8200288C1D /* CurrencyFactory.swift in Sources */,
 				A1A86231299275A900288C1D /* Polymorphism.swift in Sources */,
 				A1A8622F2992759A00288C1D /* Inheritance.swift in Sources */,
 				A1A8622D2992758F00288C1D /* Abstraction.swift in Sources */,
 				A1A8623A299548B100288C1D /* PatternClassification.swift in Sources */,
+				A1A862502996B3BF00288C1D /* BuilderSummary.swift in Sources */,
 				A1A8621D298ED0D300288C1D /* LiskovSubstitutionPrinciple.swift in Sources */,
 				A1A86217298EBB1A00288C1D /* SingleResponsibilityPrinciple.swift in Sources */,
 				A1A86229299274B300288C1D /* SummaryOOP.swift in Sources */,
+				A1A862542996B84B00288C1D /* ThemeBuilder.swift in Sources */,
 				A1A862202992601500288C1D /* LiskovSubstitutionPrinciple2.swift in Sources */,
 				A1A86206298EB76300288C1D /* ViewController.swift in Sources */,
 				A1A86202298EB76300288C1D /* AppDelegate.swift in Sources */,
