@@ -28,6 +28,10 @@
 		A1A86233299275B700288C1D /* Composition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A86232299275B700288C1D /* Composition.swift */; };
 		A1A86236299286A700288C1D /* SummaryDesignPatterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A86235299286A700288C1D /* SummaryDesignPatterns.swift */; };
 		A1A8623829929D9900288C1D /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8623729929D9900288C1D /* Protocols.swift */; };
+		A1A8623A299548B100288C1D /* PatternClassification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A86239299548B100288C1D /* PatternClassification.swift */; };
+		A1A8623D29954A7400288C1D /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8623C29954A7400288C1D /* Factory.swift */; };
+		A1A862412995529D00288C1D /* JobContacterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862402995529D00288C1D /* JobContacterFactory.swift */; };
+		A1A8624329955D8200288C1D /* CurrencyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8624229955D8200288C1D /* CurrencyFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +58,10 @@
 		A1A86232299275B700288C1D /* Composition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composition.swift; sourceTree = "<group>"; };
 		A1A86235299286A700288C1D /* SummaryDesignPatterns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryDesignPatterns.swift; sourceTree = "<group>"; };
 		A1A8623729929D9900288C1D /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		A1A86239299548B100288C1D /* PatternClassification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternClassification.swift; sourceTree = "<group>"; };
+		A1A8623C29954A7400288C1D /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		A1A862402995529D00288C1D /* JobContacterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobContacterFactory.swift; sourceTree = "<group>"; };
+		A1A8624229955D8200288C1D /* CurrencyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,8 +148,20 @@
 			isa = PBXGroup;
 			children = (
 				A1A86235299286A700288C1D /* SummaryDesignPatterns.swift */,
+				A1A86239299548B100288C1D /* PatternClassification.swift */,
+				A1A8623B29954A5C00288C1D /* GenerativePatterns */,
 			);
 			path = "Design Patterns";
+			sourceTree = "<group>";
+		};
+		A1A8623B29954A5C00288C1D /* GenerativePatterns */ = {
+			isa = PBXGroup;
+			children = (
+				A1A8623C29954A7400288C1D /* Factory.swift */,
+				A1A8624229955D8200288C1D /* CurrencyFactory.swift */,
+				A1A862402995529D00288C1D /* JobContacterFactory.swift */,
+			);
+			path = GenerativePatterns;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +239,12 @@
 				A1A8622B2992758100288C1D /* Encapsulation.swift in Sources */,
 				A1A86219298EC4DC00288C1D /* OpenClosedPrinciple.swift in Sources */,
 				A1A8623829929D9900288C1D /* Protocols.swift in Sources */,
+				A1A8623D29954A7400288C1D /* Factory.swift in Sources */,
+				A1A8624329955D8200288C1D /* CurrencyFactory.swift in Sources */,
 				A1A86231299275A900288C1D /* Polymorphism.swift in Sources */,
 				A1A8622F2992759A00288C1D /* Inheritance.swift in Sources */,
 				A1A8622D2992758F00288C1D /* Abstraction.swift in Sources */,
+				A1A8623A299548B100288C1D /* PatternClassification.swift in Sources */,
 				A1A8621D298ED0D300288C1D /* LiskovSubstitutionPrinciple.swift in Sources */,
 				A1A86217298EBB1A00288C1D /* SingleResponsibilityPrinciple.swift in Sources */,
 				A1A86229299274B300288C1D /* SummaryOOP.swift in Sources */,
@@ -229,6 +252,7 @@
 				A1A86206298EB76300288C1D /* ViewController.swift in Sources */,
 				A1A86202298EB76300288C1D /* AppDelegate.swift in Sources */,
 				A1A8622629926CBF00288C1D /* Summary.swift in Sources */,
+				A1A862412995529D00288C1D /* JobContacterFactory.swift in Sources */,
 				A1A86222299265B800288C1D /* InterfaceSegregationPrinciple .swift in Sources */,
 				A1A86204298EB76300288C1D /* SceneDelegate.swift in Sources */,
 				A1A862242992691400288C1D /* DependencyInversionPrinciple.swift in Sources */,
