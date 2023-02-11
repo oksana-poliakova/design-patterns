@@ -16,10 +16,8 @@ class NetworkManager {
     func fetch() {
         let url = URL(string: "some_url")
     }
-    
 }
 
 func testNetworkManager() {
-    let a = NetworkManager.shared
-    a.fetch()
+    NetworkManager.shared.fetch()
 }

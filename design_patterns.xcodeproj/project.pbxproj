@@ -42,6 +42,9 @@
 		A1A862592997A5A700288C1D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862582997A5A700288C1D /* NetworkManager.swift */; };
 		A1A8625B2997A93A00288C1D /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8625A2997A93A00288C1D /* FileManager.swift */; };
 		A1A8625D2997A9D400288C1D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8625C2997A9D400288C1D /* LocationManager.swift */; };
+		A1A862602997AB5200288C1D /* AdapterSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8625F2997AB5200288C1D /* AdapterSummary.swift */; };
+		A1A862622997AE3600288C1D /* EventAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862612997AE3600288C1D /* EventAdapter.swift */; };
+		A1A862642997AEB400288C1D /* TaskAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862632997AEB400288C1D /* TaskAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +85,9 @@
 		A1A862582997A5A700288C1D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		A1A8625A2997A93A00288C1D /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		A1A8625C2997A9D400288C1D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A1A8625F2997AB5200288C1D /* AdapterSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterSummary.swift; sourceTree = "<group>"; };
+		A1A862612997AE3600288C1D /* EventAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAdapter.swift; sourceTree = "<group>"; };
+		A1A862632997AEB400288C1D /* TaskAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +175,7 @@
 			children = (
 				A1A86235299286A700288C1D /* SummaryDesignPatterns.swift */,
 				A1A86239299548B100288C1D /* PatternClassification.swift */,
+				A1A8625E2997AB2400288C1D /* StructuralPatterns */,
 				A1A8623B29954A5C00288C1D /* GenerativePatterns */,
 			);
 			path = "Design Patterns";
@@ -224,6 +231,16 @@
 				A1A8625C2997A9D400288C1D /* LocationManager.swift */,
 			);
 			path = Singleton;
+			sourceTree = "<group>";
+		};
+		A1A8625E2997AB2400288C1D /* StructuralPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				A1A8625F2997AB5200288C1D /* AdapterSummary.swift */,
+				A1A862612997AE3600288C1D /* EventAdapter.swift */,
+				A1A862632997AEB400288C1D /* TaskAdapter.swift */,
+			);
+			path = StructuralPatterns;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +320,7 @@
 				A1A8625B2997A93A00288C1D /* FileManager.swift in Sources */,
 				A1A8625D2997A9D400288C1D /* LocationManager.swift in Sources */,
 				A1A8623829929D9900288C1D /* Protocols.swift in Sources */,
+				A1A862602997AB5200288C1D /* AdapterSummary.swift in Sources */,
 				A1A8623D29954A7400288C1D /* Factory.swift in Sources */,
 				A1A862522996B71600288C1D /* HouseBuilder.swift in Sources */,
 				A1A8624329955D8200288C1D /* CurrencyFactory.swift in Sources */,
@@ -314,8 +332,10 @@
 				A1A8621D298ED0D300288C1D /* LiskovSubstitutionPrinciple.swift in Sources */,
 				A1A86217298EBB1A00288C1D /* SingleResponsibilityPrinciple.swift in Sources */,
 				A1A86229299274B300288C1D /* SummaryOOP.swift in Sources */,
+				A1A862642997AEB400288C1D /* TaskAdapter.swift in Sources */,
 				A1A862542996B84B00288C1D /* ThemeBuilder.swift in Sources */,
 				A1A862202992601500288C1D /* LiskovSubstitutionPrinciple2.swift in Sources */,
+				A1A862622997AE3600288C1D /* EventAdapter.swift in Sources */,
 				A1A86206298EB76300288C1D /* ViewController.swift in Sources */,
 				A1A86202298EB76300288C1D /* AppDelegate.swift in Sources */,
 				A1A8622629926CBF00288C1D /* Summary.swift in Sources */,
