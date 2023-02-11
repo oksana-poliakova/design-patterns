@@ -39,7 +39,6 @@ class StandartSubjectImplementation: StandartSubject {
     func notifyObject() {
         for observer in observerCollection {
             (observer as! StandartObserver).valueChanged(valueName: self.valueName!, newValue: self.newValue!)
-            
         }
     }
     

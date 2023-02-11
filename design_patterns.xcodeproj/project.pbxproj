@@ -50,6 +50,7 @@
 		A1A862712997E91300288C1D /* StrategySummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862702997E91300288C1D /* StrategySummary.swift */; };
 		A1A862732997EB9700288C1D /* LoggerStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862722997EB9700288C1D /* LoggerStrategy.swift */; };
 		A1A862762997EC2A00288C1D /* TemplateSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862752997EC2A00288C1D /* TemplateSummary.swift */; };
+		A1A862782997EFA600288C1D /* TemplateCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862772997EFA600288C1D /* TemplateCodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +99,7 @@
 		A1A862702997E91300288C1D /* StrategySummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategySummary.swift; sourceTree = "<group>"; };
 		A1A862722997EB9700288C1D /* LoggerStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerStrategy.swift; sourceTree = "<group>"; };
 		A1A862752997EC2A00288C1D /* TemplateSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateSummary.swift; sourceTree = "<group>"; };
+		A1A862772997EFA600288C1D /* TemplateCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateCodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,9 +267,9 @@
 		A1A862692997DF1100288C1D /* Behavioral Patterns */ = {
 			isa = PBXGroup;
 			children = (
-				A1A862742997EC1400288C1D /* Template */,
-				A1A8626F2997E90400288C1D /* Strategy */,
 				A1A8626C2997E0F800288C1D /* Observer */,
+				A1A8626F2997E90400288C1D /* Strategy */,
+				A1A862742997EC1400288C1D /* Template */,
 			);
 			path = "Behavioral Patterns";
 			sourceTree = "<group>";
@@ -294,6 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				A1A862752997EC2A00288C1D /* TemplateSummary.swift */,
+				A1A862772997EFA600288C1D /* TemplateCodeView.swift */,
 			);
 			path = Template;
 			sourceTree = "<group>";
@@ -377,6 +380,7 @@
 				A1A8625D2997A9D400288C1D /* LocationManager.swift in Sources */,
 				A1A8623829929D9900288C1D /* Protocols.swift in Sources */,
 				A1A862602997AB5200288C1D /* AdapterSummary.swift in Sources */,
+				A1A862782997EFA600288C1D /* TemplateCodeView.swift in Sources */,
 				A1A8623D29954A7400288C1D /* Factory.swift in Sources */,
 				A1A862522996B71600288C1D /* HouseBuilder.swift in Sources */,
 				A1A8624329955D8200288C1D /* CurrencyFactory.swift in Sources */,
