@@ -38,6 +38,10 @@
 		A1A862502996B3BF00288C1D /* BuilderSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8624F2996B3BF00288C1D /* BuilderSummary.swift */; };
 		A1A862522996B71600288C1D /* HouseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862512996B71600288C1D /* HouseBuilder.swift */; };
 		A1A862542996B84B00288C1D /* ThemeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862532996B84B00288C1D /* ThemeBuilder.swift */; };
+		A1A862572997A37600288C1D /* SingletonSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862562997A37600288C1D /* SingletonSummary.swift */; };
+		A1A862592997A5A700288C1D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862582997A5A700288C1D /* NetworkManager.swift */; };
+		A1A8625B2997A93A00288C1D /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8625A2997A93A00288C1D /* FileManager.swift */; };
+		A1A8625D2997A9D400288C1D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8625C2997A9D400288C1D /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +78,10 @@
 		A1A8624F2996B3BF00288C1D /* BuilderSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderSummary.swift; sourceTree = "<group>"; };
 		A1A862512996B71600288C1D /* HouseBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseBuilder.swift; sourceTree = "<group>"; };
 		A1A862532996B84B00288C1D /* ThemeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeBuilder.swift; sourceTree = "<group>"; };
+		A1A862562997A37600288C1D /* SingletonSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonSummary.swift; sourceTree = "<group>"; };
+		A1A862582997A5A700288C1D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A1A8625A2997A93A00288C1D /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		A1A8625C2997A9D400288C1D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				A1A8624529969F6100288C1D /* Abstract Factory */,
+				A1A862552997A35300288C1D /* Singleton */,
 				A1A8624E2996B3AC00288C1D /* Builder */,
 				A1A8624429969F4E00288C1D /* Factory */,
 			);
@@ -204,6 +213,17 @@
 				A1A862532996B84B00288C1D /* ThemeBuilder.swift */,
 			);
 			path = Builder;
+			sourceTree = "<group>";
+		};
+		A1A862552997A35300288C1D /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				A1A862562997A37600288C1D /* SingletonSummary.swift */,
+				A1A862582997A5A700288C1D /* NetworkManager.swift */,
+				A1A8625A2997A93A00288C1D /* FileManager.swift */,
+				A1A8625C2997A9D400288C1D /* LocationManager.swift */,
+			);
+			path = Singleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +300,8 @@
 				A1A86233299275B700288C1D /* Composition.swift in Sources */,
 				A1A8622B2992758100288C1D /* Encapsulation.swift in Sources */,
 				A1A86219298EC4DC00288C1D /* OpenClosedPrinciple.swift in Sources */,
+				A1A8625B2997A93A00288C1D /* FileManager.swift in Sources */,
+				A1A8625D2997A9D400288C1D /* LocationManager.swift in Sources */,
 				A1A8623829929D9900288C1D /* Protocols.swift in Sources */,
 				A1A8623D29954A7400288C1D /* Factory.swift in Sources */,
 				A1A862522996B71600288C1D /* HouseBuilder.swift in Sources */,
@@ -301,9 +323,11 @@
 				A1A86222299265B800288C1D /* InterfaceSegregationPrinciple .swift in Sources */,
 				A1A86204298EB76300288C1D /* SceneDelegate.swift in Sources */,
 				A1A8624D2996A31300288C1D /* ProductAbstractFactory.swift in Sources */,
+				A1A862592997A5A700288C1D /* NetworkManager.swift in Sources */,
 				A1A862492996A11800288C1D /* ServiceAbstractFactory.swift in Sources */,
 				A1A862242992691400288C1D /* DependencyInversionPrinciple.swift in Sources */,
 				A1A86236299286A700288C1D /* SummaryDesignPatterns.swift in Sources */,
+				A1A862572997A37600288C1D /* SingletonSummary.swift in Sources */,
 				A1A8624729969F7700288C1D /* AbstractFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
