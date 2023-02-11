@@ -45,6 +45,11 @@
 		A1A862602997AB5200288C1D /* AdapterSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8625F2997AB5200288C1D /* AdapterSummary.swift */; };
 		A1A862622997AE3600288C1D /* EventAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862612997AE3600288C1D /* EventAdapter.swift */; };
 		A1A862642997AEB400288C1D /* TaskAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862632997AEB400288C1D /* TaskAdapter.swift */; };
+		A1A8626B2997E0F200288C1D /* ObserverSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8626A2997E0F200288C1D /* ObserverSummary.swift */; };
+		A1A8626E2997E66F00288C1D /* ObserverPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8626D2997E66F00288C1D /* ObserverPattern.swift */; };
+		A1A862712997E91300288C1D /* StrategySummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862702997E91300288C1D /* StrategySummary.swift */; };
+		A1A862732997EB9700288C1D /* LoggerStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862722997EB9700288C1D /* LoggerStrategy.swift */; };
+		A1A862762997EC2A00288C1D /* TemplateSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A862752997EC2A00288C1D /* TemplateSummary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +93,11 @@
 		A1A8625F2997AB5200288C1D /* AdapterSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterSummary.swift; sourceTree = "<group>"; };
 		A1A862612997AE3600288C1D /* EventAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAdapter.swift; sourceTree = "<group>"; };
 		A1A862632997AEB400288C1D /* TaskAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAdapter.swift; sourceTree = "<group>"; };
+		A1A8626A2997E0F200288C1D /* ObserverSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverSummary.swift; sourceTree = "<group>"; };
+		A1A8626D2997E66F00288C1D /* ObserverPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverPattern.swift; sourceTree = "<group>"; };
+		A1A862702997E91300288C1D /* StrategySummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategySummary.swift; sourceTree = "<group>"; };
+		A1A862722997EB9700288C1D /* LoggerStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerStrategy.swift; sourceTree = "<group>"; };
+		A1A862752997EC2A00288C1D /* TemplateSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateSummary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,13 +185,14 @@
 			children = (
 				A1A86235299286A700288C1D /* SummaryDesignPatterns.swift */,
 				A1A86239299548B100288C1D /* PatternClassification.swift */,
-				A1A8625E2997AB2400288C1D /* StructuralPatterns */,
-				A1A8623B29954A5C00288C1D /* GenerativePatterns */,
+				A1A862692997DF1100288C1D /* Behavioral Patterns */,
+				A1A8625E2997AB2400288C1D /* Structural Patterns */,
+				A1A8623B29954A5C00288C1D /* Generative Patterns */,
 			);
 			path = "Design Patterns";
 			sourceTree = "<group>";
 		};
-		A1A8623B29954A5C00288C1D /* GenerativePatterns */ = {
+		A1A8623B29954A5C00288C1D /* Generative Patterns */ = {
 			isa = PBXGroup;
 			children = (
 				A1A8624529969F6100288C1D /* Abstract Factory */,
@@ -189,7 +200,7 @@
 				A1A8624E2996B3AC00288C1D /* Builder */,
 				A1A8624429969F4E00288C1D /* Factory */,
 			);
-			path = GenerativePatterns;
+			path = "Generative Patterns";
 			sourceTree = "<group>";
 		};
 		A1A8624429969F4E00288C1D /* Factory */ = {
@@ -233,14 +244,58 @@
 			path = Singleton;
 			sourceTree = "<group>";
 		};
-		A1A8625E2997AB2400288C1D /* StructuralPatterns */ = {
+		A1A8625E2997AB2400288C1D /* Structural Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				A1A862652997B0AB00288C1D /* Adapter */,
+			);
+			path = "Structural Patterns";
+			sourceTree = "<group>";
+		};
+		A1A862652997B0AB00288C1D /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
 				A1A8625F2997AB5200288C1D /* AdapterSummary.swift */,
 				A1A862612997AE3600288C1D /* EventAdapter.swift */,
 				A1A862632997AEB400288C1D /* TaskAdapter.swift */,
 			);
-			path = StructuralPatterns;
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		A1A862692997DF1100288C1D /* Behavioral Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				A1A862742997EC1400288C1D /* Template */,
+				A1A8626F2997E90400288C1D /* Strategy */,
+				A1A8626C2997E0F800288C1D /* Observer */,
+			);
+			path = "Behavioral Patterns";
+			sourceTree = "<group>";
+		};
+		A1A8626C2997E0F800288C1D /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				A1A8626A2997E0F200288C1D /* ObserverSummary.swift */,
+				A1A8626D2997E66F00288C1D /* ObserverPattern.swift */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
+		A1A8626F2997E90400288C1D /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				A1A862702997E91300288C1D /* StrategySummary.swift */,
+				A1A862722997EB9700288C1D /* LoggerStrategy.swift */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		A1A862742997EC1400288C1D /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				A1A862752997EC2A00288C1D /* TemplateSummary.swift */,
+			);
+			path = Template;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +372,7 @@
 				A1A86233299275B700288C1D /* Composition.swift in Sources */,
 				A1A8622B2992758100288C1D /* Encapsulation.swift in Sources */,
 				A1A86219298EC4DC00288C1D /* OpenClosedPrinciple.swift in Sources */,
+				A1A862712997E91300288C1D /* StrategySummary.swift in Sources */,
 				A1A8625B2997A93A00288C1D /* FileManager.swift in Sources */,
 				A1A8625D2997A9D400288C1D /* LocationManager.swift in Sources */,
 				A1A8623829929D9900288C1D /* Protocols.swift in Sources */,
@@ -329,14 +385,17 @@
 				A1A8622D2992758F00288C1D /* Abstraction.swift in Sources */,
 				A1A8623A299548B100288C1D /* PatternClassification.swift in Sources */,
 				A1A862502996B3BF00288C1D /* BuilderSummary.swift in Sources */,
+				A1A862732997EB9700288C1D /* LoggerStrategy.swift in Sources */,
 				A1A8621D298ED0D300288C1D /* LiskovSubstitutionPrinciple.swift in Sources */,
 				A1A86217298EBB1A00288C1D /* SingleResponsibilityPrinciple.swift in Sources */,
 				A1A86229299274B300288C1D /* SummaryOOP.swift in Sources */,
 				A1A862642997AEB400288C1D /* TaskAdapter.swift in Sources */,
 				A1A862542996B84B00288C1D /* ThemeBuilder.swift in Sources */,
+				A1A8626E2997E66F00288C1D /* ObserverPattern.swift in Sources */,
 				A1A862202992601500288C1D /* LiskovSubstitutionPrinciple2.swift in Sources */,
 				A1A862622997AE3600288C1D /* EventAdapter.swift in Sources */,
 				A1A86206298EB76300288C1D /* ViewController.swift in Sources */,
+				A1A862762997EC2A00288C1D /* TemplateSummary.swift in Sources */,
 				A1A86202298EB76300288C1D /* AppDelegate.swift in Sources */,
 				A1A8622629926CBF00288C1D /* Summary.swift in Sources */,
 				A1A862412995529D00288C1D /* JobContacterFactory.swift in Sources */,
@@ -348,6 +407,7 @@
 				A1A862242992691400288C1D /* DependencyInversionPrinciple.swift in Sources */,
 				A1A86236299286A700288C1D /* SummaryDesignPatterns.swift in Sources */,
 				A1A862572997A37600288C1D /* SingletonSummary.swift in Sources */,
+				A1A8626B2997E0F200288C1D /* ObserverSummary.swift in Sources */,
 				A1A8624729969F7700288C1D /* AbstractFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
